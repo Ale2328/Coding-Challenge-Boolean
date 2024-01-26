@@ -1,0 +1,107 @@
+/* BODY */
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    text-align: center;
+    margin: 3% 20% 4%;
+}
+
+#container {
+    background-color: hsla(0, 100%, 1%, 0.5);
+    padding: 8%;
+}
+
+h1 {
+    color: lime;
+}
+
+
+.button-style,.full-battery {
+    background-color: lime;
+}
+
+/* NAVBAR */
+nav {
+    padding: 1%;
+
+}
+
+/* MAIN */
+main {
+    color: white;
+    font-size: 26px;
+    text-align: left;
+}
+
+.checkbox {
+    width: 20px;
+    height: 20px;
+    accent-color: lime;
+}
+
+
+
+h3 {
+    display: inline-block;
+    padding-bottom: 2px;
+    margin-bottom: 0px;
+}
+
+.font {
+    font-size: 20px;
+    padding: 0%;
+}
+
+.address:before {
+    content: "\21A6";
+}
+
+
+#container,
+.button-style {
+    border-radius: 25px;
+}
+
+
+.button-style{
+    border: none;
+    color: rgb(34, 58, 18);
+    font-family: monospace;
+    padding: 8px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button-style:hover{
+    font-size: 17px;
+    
+}
+
+#logo {
+    width: 30%;
+}
+
+.full-battery,
+.half-battery,
+.low-battery {
+    border-radius: 8px;
+}
+
+.full-battery {
+    width: 50%;
+}
+
+.half-battery {
+    width: 30%;
+    background-color: orangered;
+}
+
+.low-battery {
+    width: 10%;
+    background-color: rgb(205, 50, 50);
+}
